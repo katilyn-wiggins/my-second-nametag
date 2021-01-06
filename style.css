@@ -1,0 +1,66 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: lightblue;
+    
+}
+
+main {
+    background-color: tomato;
+    border-radius: 9px;
+    width: 375px;
+    text-align: center;
+}
+
+
+header {
+    height: 70px;
+    padding-bottom: 2px;
+    flex: top;
+}
+
+section {
+    height: 115px;
+    background-color: white;
+    align-items: center;
+    display:flex;
+    justify-content: center;
+}
+
+footer {
+    height: 20px;
+}
+
+#hello {
+    text-align: top;
+    line-height: 0;
+    font-size: 5em; 
+    vertical-align: top;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    flex: top;
+
+}
+
+#my-name-is {
+    text-align: middle;
+    flex: center;
+    vertical-align: middle;
+    font-size: 1.75em;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    line-height: 0;
+
+}
+
+.name {
+    text-align: middle;
+    vertical-align: middle;
+    flex: center;
+    font-size: 5em;
+    letter-spacing: 2.5px;
+    font-family: 'Yellowtail', cursive;
+}
+
